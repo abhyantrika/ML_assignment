@@ -3,10 +3,7 @@ from sklearn import datasets
 import numpy as np 
 import seaborn as sns
 import scipy.spatial.distance as ssd
-from matplotlib import cm
 import pandas as pd 
-import mpl_toolkits.mplot3d.axes3d as p3
-import pylab as p
 
 iris = datasets.load_iris()
 x = iris['data'] 
