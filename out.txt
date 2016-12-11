@@ -1,0 +1,43 @@
+﻿The classifier used is a Gaussian Naive Bayes
+Normal Testing Scores  0.933333333333
+
+The predictions after 10-fold Cross validation 
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1
+ 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 1 2 2 2 2
+ 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2]
+
+10-fold CV Scores
+[ 0.93333333  0.93333333  1.          0.93333333  0.93333333  0.93333333
+  0.86666667  1.          1.          1.        ]
+
+Accuracy: 0.95 (+/- 0.09)
+
+Confusion Matrix
+[[50  0  0]
+ [ 0 47  3]
+ [ 0  4 46]]
+
+				After PCA 
+
+The classifier used is a Gaussian Naive Bayes
+Normal Testing Scores  0.8
+
+The predictions after 10-fold Cross validation 
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 2 2 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 2 2 2 1 2 2 2 2
+ 2 2 1 2 2 2 2 2 1 2 1 2 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 2 2 2 2 2
+ 2 1]
+
+10-fold CV Scores
+[ 0.8         0.93333333  0.93333333  0.93333333  0.93333333  0.73333333
+  1.          0.86666667  0.93333333  0.93333333]
+
+Accuracy: 0.90 (+/- 0.15)
+
+Confusion Matrix
+[[50  0  0]
+ [ 0 45  5]
+ [ 0 10 40]]
